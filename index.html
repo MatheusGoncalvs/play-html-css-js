@@ -1,15 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Lets play HTML, CSS, JS</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <audio controls>
-            <source src="vceeu.mp3" type="audio/mpeg">
-        </audio>
-        <canvas id="myDrawing"></canvas>
-        <iframe width="640px" height="340px" src="https://app.pluralsight.com/player?course=html-css-javascript-big-picture&author=barry-luijbregts&name=2542a75e-bb4e-4753-9f07-d5d2069f3737&clip=4">
-        </iframe>
-    </body>
+
+<head>
+    <title>HTML Fundamentals</title>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Matheus Goncalves" />
+    <meta name="Description" content="Learn more HTML" />
+    <style type="text/css">
+        ul.square {
+            list-style-type: square;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>HTML Fundamentals</h1>
+    </div>
+    <div>
+        <h2>Overview</h2>
+    </div>
+    <h2>A little History</h2>
+    <cite>Cazuza</cite>
+    <blockquote cite="www.google.com">
+        O tempo não para. Não para não;
+    </blockquote>
+    <br />
+    <br />
+    <h2>Tipos de listas do HTML:</h2>
+    <h3>Lista não ordenada</h3>
+    <ul class="square">
+        <a href="#secao2">
+            <li>Go to Seção 2</li>
+        </a>
+        <li>Tópico 2
+            <ul>
+                <li>Sublist tópico 2</li>
+                <li>Sublist tópico 2</li>
+            </ul>
+        </li>
+        <li>Tópico 3</li>
+    </ul>
+    <h3>Lista ordenada</h3>
+    <ol>
+        <li>Tópico 1</li>
+        <li>Tópico 2</li>
+        <li>Tópico 3</li>
+    </ol>
+    <h3>Listas de definição</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>ASP.NET</dt>
+        <dd>A framework of the Microsoft</dd>
+    </dl>
+    <audio controls>
+        <source src="vceeu.mp3" type="audio/mpeg">
+    </audio>
+    <canvas id="myDrawing"></canvas>
+    <iframe width="640px" height="340px" src="">
+    </iframe>
+    <a name="secao2" title="Secao 2">
+        <h2>Seção 2</h2>
+    </a>
+</body>
+
 </html>
